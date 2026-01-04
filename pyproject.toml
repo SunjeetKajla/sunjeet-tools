@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sunjeet-tools"
-version = "0.1.0"
+version = "0.1.0.post1"
 description = "Personal utility tools by Sunjeet"
 readme = "README.md"
 license = {text = "MIT"}
@@ -15,4 +15,4 @@ requires-python = ">=3.7"
 Homepage = "https://github.com/SunjeetKajla/sunjeet-tools"
 
 [project.scripts]
-gacp = "scripts.gacp:main"
+gacp = "sunjeet_tools.cli:gacp_main"
